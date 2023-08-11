@@ -1,16 +1,16 @@
 # Task-2
 Docker Commands with outputs
 
-#docker ps
+##docker ps
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES 
 
-#docker stop sharp_bassi
+###docker stop sharp_bassi
 sharp_bassi  (The container is stooped/verified too from the list)
 
-#docker rm sharp_bassi
+####docker rm sharp_bassi
 sharp_bassi  (Container removed from the docker Containers list)
 
-#docker exec eloquent_nobel cat /etc/hosts
+######docker exec eloquent_nobel cat /etc/hosts
 127.0.0.1       localhost
 ::1     localhost ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
@@ -19,7 +19,7 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 172.17.0.2      3aa3be0463c4
 
-#docker inspect eloquent_nobel
+#######docker inspect eloquent_nobel
 [
     {
         "Id": "3aa3be0463c4f1f10541eaeceb644938e7c4543a7c13ebdbd7579b64d9127853",
@@ -234,11 +234,11 @@ ff02::2 ip6-allrouters
     }
 ]
 
-#docker commit eloquent_nobel myapp-image
+########docker commit eloquent_nobel myapp-image
 sha256:8dca7db2ee8b4c3b4cdec8e42e3ddc69fdb263861af8b91ad1f44a6f7bd9fa5e
 
 
-#docker stats
+#########docker stats
 CONTAINER ID   NAME             CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O   PIDS
 3aa3be0463c4   eloquent_nobel   0.00%     11.87MiB / 7.703GiB   0.15%     1.16kB / 0B   0B / 0B     9
 
@@ -255,18 +255,18 @@ uuidd               17119               17077               0                   
 uuidd               17120               17077               0                   11:10               ?                   00:00:00            nginx: worker process
 
 
-#docker start eloquent_nobel
+##########docker start eloquent_nobel
 eloquent_nobel
 
-#docker pause eloquent_nobel
+###########docker pause eloquent_nobel
 eloquent_nobel
 
-#docker unpause eloquent_nobel
+############docker unpause eloquent_nobel
 eloquent_nobel
 
-#docker rename  eloquent_nobel talhamodelx
+#############docker rename  eloquent_nobel talhamodelx
 
-#docker attach talhamodelx
+##############docker attach talhamodelx
 2023/08/11 11:30:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
 2023/08/11 11:30:34 [notice] 22#22: gracefully shutting down
 2023/08/11 11:30:34 [notice] 23#23: gracefully shutting down
